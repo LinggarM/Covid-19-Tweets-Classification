@@ -65,7 +65,7 @@ In this project, we use **Multinomial Naive Bayes** algorithm to perform text cl
   - The trained model is saved to: [models/MNB_model.sav](models/MNB_model.sav)
 ### Model Evaluation
   - Confusion Matrix:
-  ![images/conf_mat.png](images/conf_mat.png)
+    ![images/conf_mat.png](images/conf_mat.png)
   - Accuracy Score:
     - 0.9285714285714286 (**92.86%**)
 
