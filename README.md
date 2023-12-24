@@ -73,6 +73,17 @@ In this project, we use **Multinomial Naive Bayes** algorithm to perform text cl
   - Confusion Matrix:
 
     ![images/conf_mat.png](images/conf_mat.png)
+
+  - Classification Report
+    |                               | Precision | Recall | F1-Score | Support |
+    |-------------------------------|-----------|--------|----------|---------|
+    | Pencegahan atau Pengobatan    |   0.90    |  0.93  |   0.91   |   28    |
+    | Perkembangan COVID-19         |   0.97    |  0.90  |   0.93   |   31    |
+    | Vaccine                       |   0.92    |  0.96  |   0.94   |   25    |
+    | Accuracy                      |           |        |   0.93   |   84    |
+    | Macro Avg                     |   0.93    |  0.93  |   0.93   |   84    |
+    | Weighted Avg                  |   0.93    |  0.93  |   0.93   |   84    |
+
   
   - Accuracy Score:
     - 0.9285714285714286 (**92.86%**)
