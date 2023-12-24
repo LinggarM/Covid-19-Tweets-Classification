@@ -1,0 +1,9 @@
+Bentuk 3 kelompok
+lakukan crawling data twitter (berkaitan dengan covid)
+jumlah data per kelas minimal 100
+per-kelompok :
+	- Classical ML - sentimen analysis
+	- CNN - sentimen analysis
+	- Klasifikasi (vaccine, pencegahan atau pengobatan, perkembangan covid di indonesia saat ini)
+Presentasi online, Menunjukkan kodingan
+Pengumpulan dikirim ke r.kusumaningrum81@gmail.com dengan Subject : PBA Tugas Besar - Kelompok X, dimana X ada nomor kelompok (2)
