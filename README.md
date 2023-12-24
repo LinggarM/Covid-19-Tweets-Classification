@@ -3,12 +3,6 @@
 
 ## About the Project
 
-**Covid-19** is a global virus pandemic affecting people worldwide. The virus spreads quickly through droplets from infected individuals. The Covid-19 pandemic has significantly affected societal life. Discussions range from health protocols and symptoms to daily reports of cases and vaccine development. Social and economic consequences are also widely discussed.
-
-Twitter, a major social media platform, is a prominent space for discussions. Users share information through tweets, contributing to a vast array of discussions on COVID-19, like **health protocols, symptoms, daily case reports, vaccine development,** and **socio-economic impacts**. Due to the large volume of discussions on Twitter, a classification system is essential. This system helps analyze and understand the prevalent topics related to the Covid-19 pandemic.
-
-## Objectives/ Problems
-
 This project is a major assignment project for the first semester of the **natural language processing** course. The objective of this task is to crawl data related to COVID-19 on the Twitter platform with a minimum amount of data per class of 100, then classify the text based on the data obtained in these 3 classes.
 
 The 3 classes used in this project are:
@@ -17,6 +11,12 @@ The 3 classes used in this project are:
 - **"Current development of covid-19 in Indonesia"** (Perkembangan covid di Indonesia)
 
 In this project, we use **Multinomial Naive Bayes** algorithm to perform text classification and **TF-IDF Vectorizer** as Word Embedding (to convert text data into vectors).
+
+## Objectives/ Problems
+
+**Covid-19** is a global virus pandemic affecting people worldwide. The virus spreads quickly through droplets from infected individuals. The Covid-19 pandemic has significantly affected societal life. Discussions range from health protocols and symptoms to daily reports of cases and vaccine development. Social and economic consequences are also widely discussed.
+
+Twitter, a major social media platform, is a prominent space for discussions. Users share information through tweets, contributing to a vast array of discussions on COVID-19, like **health protocols, symptoms, daily case reports, vaccine development,** and **socio-economic impacts**. Due to the large volume of discussions on Twitter, a classification system is essential. This system helps analyze and understand the prevalent topics related to the Covid-19 pandemic.
 
 ## Technology Used
 * Python
