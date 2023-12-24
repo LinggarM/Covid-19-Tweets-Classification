@@ -31,6 +31,7 @@ In this project, we use **Multinomial Naive Bayes** algorithm to perform text cl
 * [covid-19-tweets-classification.ipynb](notebooks/covid-19-tweets-classification.ipynb)
 
 ## Workflow
+
 ### Data Collection
   - The dataset used in this project comprises tweet data acquired from the **Twitter** platform using the **Tweepy** library. The data was collected based on the following keywords:
     - **"Vaccine"** (Vaksin),
@@ -52,20 +53,27 @@ In this project, we use **Multinomial Naive Bayes** algorithm to perform text cl
     - "Current development of covid-19 in Indonesia": **147** Tweets
     - Total: **417** tweets
   - **Data distribution:**
-    - ![images/data_distribution.png](images/data_distribution.png)
+
+    ![images/data_distribution.png](images/data_distribution.png)
+
 ### Data Preprocessing
   The data preprocessing steps applied to the data include:
   - Remove **hashtag, @user, and hyperlink** from the tweet
   - **Stopword removal** using **Sastrawi** library
   - Train the **TF-IDF Vectorizer** model
+
 ### Data Splitting
   - The data is split into **training data** and **testing data** with a ratio of 0.2, signifying **80% for training data** and **20% for testing data**. The random_state variable is set to 0.
+
 ### Model Building & Training
   - The model is trained using the **Multinomial Naive Bayes** algorithm
   - The trained model is saved to: [models/MNB_model.sav](models/MNB_model.sav)
+
 ### Model Evaluation
   - Confusion Matrix:
+
     ![images/conf_mat.png](images/conf_mat.png)
+  
   - Accuracy Score:
     - 0.9285714285714286 (**92.86%**)
 
